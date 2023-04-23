@@ -1,0 +1,399 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',"Open Sans";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Rules */
+/*start header*/
+header {
+    background: linear-gradient(97.09deg, rgba(255, 255, 255, 0.4) 42.58%, rgba(255, 255, 255, 0.1) 56.36%);
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(20px);
+        height: 100px;
+        display: flex;
+}
+header .container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(43, 2, 2);
+}
+header .container .image {
+}
+header img {
+    height: 80px;
+}
+header .container {
+    display: flex;
+    gap: 50px;
+}
+header .container .click {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+header .container .click a {
+    cursor: pointer;
+    position: relative;
+}
+header .container h1 {
+    width: 451.57px;
+    font-size: 20px;
+    line-height: 30px;
+}
+header .container span {
+}
+header .donate {
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #3A4B9F 30.21%, #5e1e93 95%);
+    padding: 7px 25px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px 0px rgba(69, 22, 110, 0.402);
+}
+.images {
+    background-image: url(./imq/pexels-ahmed-akacha-10629418.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+/*end header*/
+/*start text-section*/
+.text-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    background-color: #1DC198;
+}
+.text-section .donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #3A4B9F 30.21%, #5e1e93 95%);
+    width: fit-content;
+    box-shadow: 0px 10px 10px 0px rgba(69, 22, 110, 0.402);
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    gap: 15px;
+}
+.text-section .donate h3 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.text-section h1 {
+    color: white;
+    font-size: 71px;
+    font-weight: 400;
+    font-family: 'Cairo', sans-serif;
+}
+.text-section i {
+    color: #3A4B9F;
+        background-color: white;
+        border-radius: 50%;
+        padding: 5px;
+}
+
+/*end text-section*/
+/*start main event*/
+.main-event {
+    height: 520px;
+}
+.main-event .page {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    height: 483.77px;
+    background-color: #FFFFFF;
+    bottom: -450px;
+    left: 5%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 18px solid white;
+    border-radius: 10px;
+}
+.main-event .page .imge {
+    position: relative;
+}
+.main-event .page .imge img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main-event .page .text {
+    background-color: #60318A;
+    padding: 18px;
+    text-align: center;
+}
+.main-event .page .text h1 {
+    line-height: 1.8;
+    color: white;
+    font-size: 35px;
+}
+.main-event .page .text h1 span {
+    color: #1DC198;
+}
+.main-event .page .text .two {
+    width: 495.99px;
+    height: 9.62px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-event .page .text .two::before {
+    content: "";
+    position: absolute;
+        width: 50%;
+        height: 100%;
+        background: #FFBA3B;
+        border-radius: 20px;
+        left: 0;
+}
+.main-event .page .text .besoin {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.main-event .page button {
+    right: 0;
+    position: absolute;
+    padding: 15px;
+    color: white;
+    background-color: #1DC198;
+    border-radius: 43px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7px;
+}
+.main-event .page .besoin .text {
+    color: aliceblue;
+    line-height: 1.6;
+    text-align: start;
+}
+.main-event .page .button {
+    width: 200.63px;
+    height: 41.36px;
+    background: #FFBA3B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+/*end main event*/
+/*start current event*/
+.current {
+    background-image: url(./imq/bleu.jpg);
+    background-size: cover;
+}
+.current h1 {
+    color: #3A4B9F;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+    font-size: 55px;
+}
+.current .img {
+    position: relative;
+    width: 280px;
+    height: 250px;
+}
+.current .img img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.current .boxes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.current .boxes .box {
+    border: 14px solid white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 1fr .7fr 0.3fr;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 10px;
+}
+.current .boxes .box p {
+    text-align: center;
+    color: #3A4B9F;
+    width: 100%;
+    width: 280px;
+    padding: 20px;
+    line-height: 1.7;
+    font-weight: 600;
+    font-size: 20px;
+}
+.current .boxes .box .donate {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #3A4B9F 30.21%, #5e1e93 95%);
+        width: fit-content;
+        box-shadow: 0px 10px 10px 0px rgba(69, 22, 110, 0.402);
+        margin: 0 auto;
+        padding: 10px 25px;
+        border-radius: 30px;
+        color: white;
+        gap: 15px;
+        flex-wrap: wrap;
+}
+.current .boxes .box .donate h3 {
+    font-weight: 400;
+    font-size: 15px;
+}
+.current .boxes .box .donate i {
+    color: #3A4B9F;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.current .moh {
+    font-size: 100px;
+    color: #3A4B9F;
+    margin-left: 10px;
+}
+
+
+/*end current event*/
+/*start who we are*/
+.who {
+    height: 738px;
+    background-image: url(./imq/Rectangle\ 31.png);
+    position: relative;
+}
+.who .img2 {
+    background-image: url(./imq/image\ 2.png);
+    position: absolute;
+    width: 437.28px;
+    height: 326.28px;
+    top: 30px;
+    right: 5px;
+    display: none;
+}
+.who .container {
+    padding: 50px 0;
+    text-align: start;
+    display: flex;
+    
+}
+
+.who .img .img1 {
+    margin-top: 58px;
+    width: 524.74px;
+    height: 501.26px;
+    background-image: url(./imq/Rectangle\ 25.png);
+    background-size: cover;
+    z-index: 2;
+}
+.who .text {
+    padding-right: 70px;
+}
+.who .text h1 {
+    color: #3A4B9F;
+    font-family: Poppins;
+        font-size: 66px;
+        font-weight: 600;
+        line-height: 99px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.who .text p {
+    font-family: Poppins;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: 0em;
+        color: white;
+        padding-right: 10px;
+}
+.who .text  a {
+    text-decoration: none;
+    width: 240.18px;
+    height: 94.63px;
+    background: linear-gradient(180deg, #5569AE 0%, #3A4B9F 99.97%, rgba(29, 193, 152, 0.1) 99.98%, rgba(29, 193, 152, 0.5) 99.99%);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 30px;
+}
+.who .text a i {
+    width: 34.10283279418945px;
+    height: 43.81px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #3d2813;
+}
+
+
+/*end who we are*/
