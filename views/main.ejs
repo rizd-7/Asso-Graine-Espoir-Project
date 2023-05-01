@@ -14,12 +14,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!--google font link popins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <!--Title-->
     <title>Association Grand espoir</title>
 </head>
@@ -29,30 +31,56 @@
 <header>
     <div class="container">
         <div class="image">
-            <img src="pctr/logo.jpg" alt="">
+            <img style="border-radius: 50%;" src="./imq/Ellipse 1.png" alt="">
         </div>
-        <h1>Association Graine D'espoir</h1>
+        <h1>Association Grand D'espoir</h1>
         <div class="click">
-
-            <a href="/">Home</a>
-            <a href="/aboutUs">Goals</a>
-            <a href="/joinUs">contact</a>
-            <a href="#" class="link-more">more</a>
-            <button onclick="donate()">Donate</button>
-            <!-- la partie li dji ta7tha 7ta div lzm tetsuprima (khelitha bach 3la jal style yeb9a smagem )  -->
+            <span><a href="/">Home</a></span>
+            <span ><a href="/aboutUs">Goals</a></span>
+            <span ><a href="/joinUs">contact</a></span>
             <span class="link-more" >more</span>
             </div>
             <span class="donate" href="">Donate</span>
+            <i class="fa fas fa-bars toggle-menu none"></i>
         </div>
     </div>
-    
 </header>
+<!--start empty-->
+<div class="empty"><span class="x">X</span>
+    <div class="container">
+        <div class="page1">
+            <img class="img" src="./imq/Rectangle 123 (1).png" alt="">
+            <div class="logo">
+                <img src="./imq/Ellipse 1.png" style="border-radius: 50%;" alt="">
+                <p>Association Graine D’espoir</p>
+            </div>
+            <hr>
+            <p class="last">Donate now to help those in need.
+            give your help in the efforts to support our communities in need so everybody have a decent life.</p>
+        </div>
+
+        <div class="page2">
+            <h2>Secure donation</h2>
+            <div class="prix">
+                <div class="prices">1,000</div>
+                <div class="prices">2,000</div>
+                <div class="prices">3,000</div>
+                <div class="prices">4,000</div>
+            </div>
+            <input value="entrer un nombre" type="text">
+            <div class="button">Donate Now <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i></div>
+            <p class="tex">donate somthing other then money (food , clothes , school kits ....)</p>
+            <div class="button suu">Contact Us</div>
+        </div>
+    </div>
+</div>
 <!--end  header -->
 <!--start  text-section -->
+<div class="null">
     <div class="text-section">
         <h1>نزرع في الياس املا<br>
         كرمك سبب فرحتهم</h1>
-        <div class="donate">
+        <div class="donate ">
             <h3>Donate Now</h3>
             <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
         </div>
@@ -63,7 +91,7 @@
         <div class="container">
             <div class="page">
                 <span class="imge">
-                    <img src="pctr/pic7.jpg" alt="">
+                    <img src="./imq/pic7.jpg" alt="">
                 </span>
                 <div class="text">
                     <h1>We invite you to join us <br>in this challenge <br>
@@ -73,7 +101,7 @@
                         <div class="text">
                             <p>Donations : 10000 DA <br>
                             Besoin : 20000 DA</p>
-                        </div>
+                            </div>
                         <button>50%</button>
                     </div>
                     <div class="button">Donate Now <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i></div>
@@ -83,12 +111,131 @@
     </div>
 <!--end main event-->
 <!-- start current event -->
+
 <div class="current">
     <h1>current events</h1>
-    <div class="boxes">
-        <div class="box">
+    <!-- Slider main container -->
+    <div class="swiper ">
+        
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+    <div class="swiper-slide">
+            <div class="box ">
+                <div class="img">
+                    <img src="./imq/pic5.jpg" alt="">*
+                </div>
+                <p>Lorem Ipsum Dolor <br>
+                    Sit Consectetur <br> Adipiscing Elit</p>
+                <div class="donate">
+                    <h3>Donate Now</h3>
+                    <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+            <div class="swiper-slide"><div class="box" id="two">
+                <div class="img">
+                    <img src="./imq/pic5.jpg" alt="">*
+                </div>
+                <p>Lorem Ipsum Dolor <br>
+                    Sit Consectetur <br> Adipiscing Elit</p>
+                <div class="donate">
+                    <h3>Donate Now</h3>
+                    <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                </div>
+            </div></div>
+            <div class="swiper-slide"><div class="box" id="three">
+                <div class="img">
+                    <img src="./imq/pic5.jpg" alt="">*
+                </div>
+                <p>Lorem Ipsum Dolor <br>
+                    Sit Consectetur <br> Adipiscing Elit</p>
+                <div class="donate">
+                    <h3>Donate Now</h3>
+                    <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                </div>
+            </div></div>
+            <div class="swiper-slide">
+                <div class="box " id="foor">
+                    <div class="img">
+                        <img src="./imq/pic5.jpg" alt="">*
+                    </div>
+                    <p>Lorem Ipsum Dolor <br>
+                        Sit Consectetur <br> Adipiscing Elit</p>
+                    <div class="donate">
+                        <h3>Donate Now</h3>
+                        <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box " id="foor">
+                    <div class="img">
+                        <img src="./imq/pic5.jpg" alt="">*
+                    </div>
+                    <p>Lorem Ipsum Dolor <br>
+                        Sit Consectetur <br> Adipiscing Elit</p>
+                    <div class="donate">
+                        <h3>Donate Now</h3>
+                        <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box " id="foor">
+                    <div class="img">
+                        <img src="./imq/pic5.jpg" alt="">*
+                    </div>
+                    <p>Lorem Ipsum Dolor <br>
+                        Sit Consectetur <br> Adipiscing Elit</p>
+                    <div class="donate">
+                        <h3>Donate Now</h3>
+                        <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box " id="foor">
+                    <div class="img">
+                        <img src="./imq/pic5.jpg" alt="">*
+                    </div>
+                    <p>Lorem Ipsum Dolor <br>
+                        Sit Consectetur <br> Adipiscing Elit</p>
+                    <div class="donate">
+                        <h3>Donate Now</h3>
+                        <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box " id="foor">
+                    <div class="img">
+                        <img src="./imq/pic5.jpg" alt="">*
+                    </div>
+                    <p>Lorem Ipsum Dolor <br>
+                        Sit Consectetur <br> Adipiscing Elit</p>
+                    <div class="donate">
+                        <h3>Donate Now</h3>
+                        <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <!-- <div class="boxes">
+        <div class="box ">
             <div class="img">
-                <img src="pctr/pic5.jpg" alt="">*
+                <img src="./imq/pic5.jpg" alt="">*
             </div>
             <p>Lorem Ipsum Dolor <br>
                 Sit Consectetur <br> Adipiscing Elit</p>
@@ -97,9 +244,9 @@
                 <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
             </div>
         </div>
-        <div class="box">
+        <div class="box" id="two">
             <div class="img">
-                <img src="pctr/pic5.jpg" alt="">*
+                <img src="./imq/pic5.jpg" alt="">*
             </div>
             <p>Lorem Ipsum Dolor <br>
                 Sit Consectetur <br> Adipiscing Elit</p>
@@ -108,9 +255,9 @@
                 <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
             </div>
         </div>
-        <div class="box">
+        <div class="box" id="three">
             <div class="img">
-                <img src="pctr/pic5.jpg" alt="">*
+                <img src="./imq/pic5.jpg" alt="">*
             </div>
             <p>Lorem Ipsum Dolor <br>
                 Sit Consectetur <br> Adipiscing Elit</p>
@@ -119,9 +266,9 @@
                 <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i>
             </div>
         </div>
-        <div class="box">
+        <div class="box " id="foor">
             <div class="img">
-                <img src="pctr/pic5.jpg" alt="">*
+                <img src="./imq/pic5.jpg" alt="">*
             </div>
             <p>Lorem Ipsum Dolor <br>
                 Sit Consectetur <br> Adipiscing Elit</p>
@@ -131,19 +278,16 @@
             </div>
         </div>
         <i class=" favfa-solid fa fa-chevron-right moh"></i>
-    </div>
+    </div> -->
 </div>
 <!-- end current event -->
 <!--begin who we are -->
 <div class="who">
-    <div class="img2">
-
-    </div>
     <div class="container">
         <div class="text">
             <h1>Who we are?</h1>
             <p>hese pages provide a wealth <br> of information for users and <br> are essential for keeping the <br> domestic website organized.</p>
-            <a href="">read more<i class=" favfa-solid fa fa-chevron-right moh"></i></a>
+            <a href="">read more<i class=" favfa-solid fa fa-chevron-right moh" id="#non"></i></a>
         </div>
         <div class="img">
             <div class="img1">
@@ -152,12 +296,76 @@
     </div>
 </div>
 <!--end who we are -->
-
-
-
-
+<!--start join us -->
+<div class="join">
+    
+        <h1>Become a Volunteer</h1>
+        <p>pages provide a wealth of information for for <br>
+        users and are essential for keeping <br>
+        the domestic website</p>
+        <button>Join Us Now</button>
+</div>
+<!--end join us -->
+<!--start our goals-->
+<div class="goals">
+    <div class="container">
+        <h1>Our Goals</h1>
+        <div class="page">
+            <span class="one"><p>Zero hunger</p></span>
+            <span class="two"><p>quality education</p></span>
+            <span class="three"><p>Good health and well being</p></span>
+            <span class="foor"><p>no poverty</p></span>
+            <span class="five"><p>Warm Winter</p></span>
+        </div>
+    </div>
+</div>
+<!--end our goals-->
+<!--start footer-->
+<footer>
+    <div class="container">
+    <div class="flex-one">
+        <div>
+            <h3>Adress</h3>
+            <p>Queens Bulvd,<br> 11103, New York, <br> USA</p>
+        </div>
+        <div>
+            <h3>Contact us</h3>
+            <p><i class="fa fa-solid fa-envelope"></i>graine@gmail.com</p>
+            <p><i class="fa fa-solid fa-phone"></i>graine@gmail.com</p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <div class="social">
+                <i class="fa fa-brands fa-instagram"></i>
+                <i class="fa fa-brands fa-youtube"></i>
+                <i class="fa fa-brands fa-facebook"></i>
+                <i class="fa fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div>
+            <h3>Naigation</h3>
+            <p>Queens Bulvd, <br> 11103,New York, <br> USA</p>
+        </div>
+    </div>
+    <hr>
+    <div class="flex-two">
+        <div class="one">
+            <img style="border-radius: 50%;" src="./imq/Ellipse 1.png" alt="">
+            <p>Association Graine D’espoir <br>
+            جمعية بذرة الخير و الأمل</p>
+        </div>
+        <div>
+            جمعية خيرية ذات طابع اجتماعي الهدف <br>  الأساسي مساعدة المحتاج
+        </div>
+    </div>
+    </div>
+</footer>
+<!--end footer-->
 
 </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="projet.js"></script>
 </body>
 </html>

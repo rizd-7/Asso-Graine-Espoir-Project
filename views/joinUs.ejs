@@ -1,135 +1,172 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="joinus.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css link-->
+    <link rel="stylesheet" href="join.css">
+    <!--normalize file-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="all.min.css">
+    <!--google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google font link popins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap" rel="stylesheet">
-
-
-
-    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--Title-->
+    <title>Association Grand espoir</title>
 </head>
 
 <body>
-    <section class="header">
-        <nav>
-
-            <div class="topnav">
-                <div class="logo">
-                    <a href="home.html">
-                        <h1>Association Graine D'espoir</h1><img src="pctr/logo.jpg"></a>
+    <!--start header -->
+    <div class="images">
+        <header>
+            <div class="container">
+                <div class="image">
+                    <img style="border-radius: 50%;" src="./imq/logo.jpg" alt="">
                 </div>
-                <div class="nav">
-                    <a href="/" id="one">Home</a>
-                    <a href="/aboutUs" id="two">Goals</a>
-                    <a href="/joinUs" id="three">Contact us</a></div>
-                <div class="dropdown">
-                    <a href="#" class="dropbtn">more
-                     <i class="fa fa-caret-down"></i></a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="aboutUs">About Us</a>
-                        <a href="/events">Events</a>
-                        <a href="/joinUs">Join Us</a>
+                <h1>Association Grand D'espoir</h1>
+                <div class="click">
+                    <span><a href="/">Home</a></span>
+                    <span><a href="/aboutUs">Goals</a></span>
+                    <span><a href="/joinUs">contact</a></span>
+                    <span class="link-more">more</span>
+                </div>
+                <span class="donate" href="">Donate</span>
+                <i class="fa fas fa-bars toggle-menu none"></i>
+            </div>
+    </div>
+    </header>
+    <!--start empty-->
+    <div class="empty"><span class="x">X</span>
+        <div class="container">
+            <div class="page1">
+                <img class="img" src="./imq/Rectangle 123.png" alt="">
+                <div class="logo">
+                    <img src="./imq/logo.jpg" style="border-radius: 50%;" alt="">
+                    <p>Association Graine D’espoir</p>
+                </div>
+                <hr>
+                <p class="last">Donate now to help those in need.
+                    give your help in the efforts to support our communities in need so everybody have a decent life.
+                </p>
+            </div>
+
+            <div class="page2">
+                <h2>Secure donation</h2>
+                <div class="prix">
+                    <div class="prices">1,000</div>
+                    <div class="prices">2,000</div>
+                    <div class="prices">3,000</div>
+                    <div class="prices">4,000</div>
+                </div>
+                <input value="entrer un nombre" type="text">
+                <div class="button">Donate Now <i class="fa fa-sharp fa-regular fa fa-arrow-right"></i></div>
+                <p class="tex">donate somthing other then money (food , clothes , school kits ....)</p>
+                <div class="button suu">Contact Us</div>
+            </div>
+        </div>
+    </div>
+    <!--end  header -->
+    <!--start  text-section -->
+    <!--start text -->
+    <div class="text">
+        <h1>Become<span>a Volunteer</span>Our association</h1>
+        <p>We’re dedicated to building a future where humanity can prosper. And while <br> the crisis is huge, we’re
+            optimistic.</p>
+    </div>
+    <!--end text section-->
+    <div class="null">
+        <!--start join us-->
+        
+        <div class="join">
+            <div class="container">
+               <form action="/" method="post">
+    <!--tag-->  <div class="boxx1">
+                    <div class="tex">
+                        <p>full name*</p>
+                        <input class="texto" type="text" name="fullName">
+                    </div>
+                    <div class="tex">
+                        <p>email adress*</p>
+                        <input class="texto" type="text" name="emailAdress">
+                    </div>
+                    <div class="tex">
+                        <p>phone number*</p>
+                        <input class="texto" type="text" name="phoneNumber">
+                    </div>
+                    <div class="tex">
+                        <p>message*</p>
+                        <input class="texto" type="text" name="message">
+                    </div>
+                    <div class="notif">
+                        <p>set notified</p>
+                        <span>yes <input type="checkbox" name="getNotified" id="" value="true"></span>
+                        <span>no <input type="checkbox" name="" id=""></span> 
+                        <div><input class="last-one" value="Submit" type="submit"></div>
+                    </div>
+                </form>  
+                </div>
+                <div class="boxx2">
+                    <img class="fir" src="./imq/Rectangle 109.png " alt="">
+                    <h3>Let's Get in Touch</h3>
+                    <div class="space"><img src="./imq/Vector (6).png" alt=""><p>0542762621</p></div>
+                    <div class="space"><img src="./imq/Vector (7).png" alt=""><p>graine@gmail.com</p></i></div>
+                    <div class="space"><img src="./imq/Vector (5).png" alt=""><p>Queens Bulvd, 11103,New York,USA</p></div>
+                </div>
+            </div>
+        </div>
+        <!--start footer-->
+        <footer>
+            <div class="container">
+                <div class="flex-one">
+                    <div>
+                        <h3>Adress</h3>
+                        <p>Queens Bulvd,<br> 11103, New York, <br> USA</p>
+                    </div>
+                    <div>
+                        <h3>Contact us</h3>
+                        <p><i class="fa fa-solid fa-envelope"></i>graine@gmail.com</p>
+                        <p><i class="fa fa-solid fa-phone"></i>graine@gmail.com</p>
+                    </div>
+                    <div>
+                        <h3>Follow Us</h3>
+                        <div class="social">
+                            <i class="fa fa-brands fa-instagram"></i>
+                            <i class="fa fa-brands fa-youtube"></i>
+                            <i class="fa fa-brands fa-facebook"></i>
+                            <i class="fa fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Naigation</h3>
+                        <p>Queens Bulvd, <br> 11103,New York, <br> USA</p>
                     </div>
                 </div>
-                <a href="#"><button id="btn">Donate</button></a>
-
-            </div>
-        </nav>
-        <div class="write">
-            <span id="first"></span>
-            <span id="second"></span>
-            <span id="third"></span>
-            <span id="fourth"></span>
-            <h3> Join Us Today</h3>
-            <h1>Become<span style=color:#622F89><span style="visibility: hidden;">'</span>A Volunteer<span style="visibility: hidden;">'</span></span>In Our Association</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida tempus viverra. Sed non pretium nibh, in tristique diam</p>
-            <form id="login">
-                <label for="username" class="input1">Full Name*</label>
-                <br>
-                <input class="un" type="text" style="font-size: 30px;" required>
-                <br>
-                <label for="username" class="input2">Email Adress*</label>
-                <br>
-                <input type="email" class="deux" style="font-size: 30px;" required>
-                <br>
-                <label for="username" class="input3">Phone Number*</label>
-                <br>
-                <input type="phonenumber" class="trois" style="font-size: 30px;" required pattern="[0-9]+">
-                <br>
-                <label for="extra" class="msg">Message*</label>
-                <br>
-                <textarea id="extra" name="extra" rows="3" cols="40" style="font-size: 30px;"></textarea>
-                <br>
-                <button type="submit" class="submit">Submit</button>
-            </form>
-
-        </div>
-        <div class="write2">
-            <img src="pctr/hand.jpg" id="hand">
-            <h2>Let's Get In Touch</h2>
-            <div class="tlf"><img src="pctr/icons8-phone-48.png">
-                <h3>0542762621</h3>
-            </div>
-            <div class="mail"><img src="pctr/icons8-envelope-64.png">
-                <h3>graine@gmail.com</h3>
-            </div>
-            <div class="location">
-                <img src="pctr/icons8-location-50.png">
-                <h3> Queens Bulvd,</h3>
-                <p>11103,New York,USA</p>
-
-            </div>
-        </div>
-        <section class="footer">
-            <span></span>
-            <font></font>
-            <div id="walo"></div>
-            <article class="walo2"></article>
-
-            <div class="foot">
-                <div class="premier">
-                    <h3>Adress</h3>
-                    <p>Queens Bulvd, 11103,New York, USA</p>
-                </div>
-                <div class="deuxieme">
-                    <h3>Contact Us</h3>
-                    <a href="#"><img src="pctr/email.png" id="mail"></a>
-                    <p id="gmail">graine@gmail.com</p>
-                    <a href="#"><img src="pctr/tlf.png" id="tel"></a>
-                    <p id="tlf">0542762621</p>
-                </div>
-                <div class="troisieme">
-                    <h3>Follow Us</h3>
-                    <a href="#"><img src="pctr/instagram.png"></a>
-                    <a href="#"><img src="pctr/youtube.png" id="you"></a>
-                    <a href="#"><img src="pctr/facebook.png" id="fb"></a>
-                    <a href="#"><img src="pctr/tik-tok.png" id="tik"></a>
-                </div>
-                <div class="quatrieme">
-                    <h3>Navigation</h3>
-                    <p>Queens Bulvd, 11103,New York, USA</p>
+                <hr>
+                <div class="flex-two">
+                    <div class="one">
+                        <img style="border-radius: 50%;" src="./imq/logo.jpg" alt="">
+                        <p>Association Graine D’espoir <br>
+                            جمعية بذرة الخير و الأمل</p>
+                    </div>
+                    <div>
+                        جمعية خيرية ذات طابع اجتماعي الهدف <br> الأساسي مساعدة المحتاج
+                    </div>
                 </div>
             </div>
-            <div class="line"></div>
-            <div class="last">
-                <a href="#"><img src="pctr/logo.jpg"></a>
-                <h1>Association Graine D’espoir جمعية بذرة الخير و الأمل</h1>
-                <p>جمعية خيرية ذات طابع اجتماعي الهدف الأساسي مساعدة المحتاج</p>
-            </div>
-        </section>
-    </section>
-</body>
-
-</html>
+        </footer>
+        <!--end footer-->
+    </div>
+    <script src="./join.js"></script>
+    </body>

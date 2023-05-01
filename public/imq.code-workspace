@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "imq",
+			"path": "../projet/imq"
+		},
+		{
+			"name": "join us",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "join us"
+	}
+}
